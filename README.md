@@ -1,2 +1,3 @@
-# java-projects
-small java projects I've worked 
+# coding-tasks
+
+Small problems solved in different languages.
