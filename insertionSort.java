@@ -7,7 +7,6 @@ public class insertionSort {
     }
     System.out.println();
 
-    // Print all the array elements
     for (int j = 1; j < arr.length; j++) {
         int key = arr[j];
         int i = j - 1;
@@ -18,6 +17,13 @@ public class insertionSort {
         }
         arr[i + 1] = key;
     }
+
+    // 1st iteration
+    // j = 1; i = 0;
+    // arr[i] = 5; key = 2; condition is true
+    // arr[i + 1] = arr[i]; => arr[1] = arr[0]; => the values are swapped and arr[1] = 5;
+    // i = -1;
+    // arr[i + 1] = 2; => arr[0] = 2
 
     System.out.print("Array after being sorted: ");
     for (int i:arr) {
